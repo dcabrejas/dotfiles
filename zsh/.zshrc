@@ -81,6 +81,7 @@ setopt globdots
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  alias-tips
 )
 
 source $ZSH/oh-my-zsh.sh
