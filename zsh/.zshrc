@@ -82,6 +82,7 @@ setopt globdots
 plugins=(
   git
   alias-tips
+  common-aliases
 )
 
 source $ZSH/oh-my-zsh.sh
