@@ -31,7 +31,8 @@ call plug#end()
 
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
-colorscheme miramare
+"colorscheme miramare
+colorscheme monokai
 
 nnoremap <C-T> :NERDTreeToggle<CR>
 "Maps for windows nagivation (splits)
