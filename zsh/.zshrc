@@ -7,7 +7,7 @@ export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=/usr/local/lib/ruby/gems/2.5.0/bin:$PATH
 export PATH=/opt:$PATH
-
+ZSH_DISABLE_COMPFIX="true"
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/work/.oh-my-zsh"
 
@@ -119,6 +119,8 @@ alias wf="workflow"
 alias rdd="sed -i '' 's/DEFINER=[^*]*\*/\*/g'"
 alias datef="date +%d-%m-%Y"
 alias ll="ls -la"
+alias myip="curl ifconfig.me"
+
 #
 # sh into a service fom the current wf2 product
 # pass service name as first argument, eg. nginx
