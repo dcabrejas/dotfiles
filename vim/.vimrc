@@ -18,6 +18,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'franbach/miramare'
 " Tree file navigation
 Plug 'preservim/nerdtree'
+" Nord Theme
+Plug 'arcticicestudio/nord-vim'
 "Autocompletion
 "Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
 "Plug 'ncm2/ncm2'
@@ -32,7 +34,8 @@ call plug#end()
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
 "colorscheme miramare
-colorscheme monokai
+"colorscheme monokai
+colorscheme nord
 
 nnoremap <C-T> :NERDTreeToggle<CR>
 "Maps for windows nagivation (splits)
