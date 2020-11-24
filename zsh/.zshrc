@@ -14,6 +14,8 @@ ZSH_DISABLE_COMPFIX="true"
 export ZSH="/Users/work/.oh-my-zsh"
 [ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env" # ghcup-env
 
+export PATH=/usr/local/opt/mysql@5.7/bin:$PATH
+
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=~/zsh_custom
 
