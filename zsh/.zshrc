@@ -5,12 +5,15 @@ export LANG=C
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 export PATH=/usr/local/lib/ruby/gems/2.5.0/bin:$PATH
+export PATH=$HOME/.gem/ruby/2.5.0/bin:$PATH
 export PATH=/opt:$PATH
 export PATH=/usr/local/opt/zip/bin:$PATH
 ZSH_DISABLE_COMPFIX="true"
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/work/.oh-my-zsh"
+[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env" # ghcup-env
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=~/zsh_custom
@@ -83,7 +86,7 @@ setopt globdots
 plugins=(
   git
   alias-tips
-  common-aliases
+#  common-aliases
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -121,6 +124,7 @@ alias rdd="sed -i '' 's/DEFINER=[^*]*\*/\*/g'"
 alias datef="date +%d-%m-%Y"
 alias ll="ls -la"
 alias myip="curl ifconfig.me"
+alias df="/usr/local/bin/fd"
 
 #
 # sh into a service fom the current wf2 product
