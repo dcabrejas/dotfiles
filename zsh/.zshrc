@@ -7,6 +7,7 @@ export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=/usr/local/lib/ruby/gems/2.5.0/bin:$PATH
 export PATH=/opt:$PATH
+export PATH=/usr/local/opt/zip/bin:$PATH
 ZSH_DISABLE_COMPFIX="true"
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/work/.oh-my-zsh"
