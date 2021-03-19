@@ -155,5 +155,4 @@ source $(brew --prefix nvm)/nvm.sh
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-eval $(thefuck --alias)
 export PATH="/usr/local/opt/ruby@2.5/bin:$PATH"
